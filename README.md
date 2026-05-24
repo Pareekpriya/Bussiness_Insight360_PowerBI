@@ -5,7 +5,6 @@ An interactive, enterprise-grade Power BI 360° business intelligence dashboard 
 ## 🚀 Live Interactive Dashboard
 You can interact with the fully functional, live dashboard directly below:
 
-
 [Power BI Live View Link](https://app.powerbi.com/view?r=eyJrIjoiN2ExMTA0MjAtYmFmMS00NTVlLWE2MGYtZGRjMzNkODAzOGQxIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
 
 ---
@@ -27,12 +26,18 @@ The central navigation hub of the tool. Designed with an intuitive UX/UI that al
 * **Objective:** Analyze customer behavior and performance across key business indicators.
 * **Key Metrics & Tools:** * Evaluation of Net Sales and Gross Margin percentage ($GM\%$).
   * Comprehensive **Profitability / Growth Matrix** to isolate high-performing customer segments from risk zones.
+  * **💡 Advanced Feature (Hover Tooltip):** Hovering over any **Customer Name** triggers a dynamic, pop-up report page showing historical trends for **Net Sales (NS)** and **Gross Margin % (GM%)** specifically for that customer.
+  
+  ![Sales Hover Tooltip](sales-tooltip.png)
 
 ### 4. 🎯 Marketing View
 * **Objective:** Double-down on product segment performance and marketing ROI.
 * **Key Metrics & Tools:**
   * Performance breakdown across product categories and individual SKUs.
   * Product-level **Profitability / Growth Matrix** to guide inventory prioritization and promotional budgets.
+  * **💡 Advanced Feature (Dynamic Plot Toggle):** Features a custom parameter switch allowing users to instantly change the scatter plot's Y-axis metrics between **Net Profit %** and **GM%** for flexible strategic analysis.
+
+  ![Marketing Metric Switch](marketing-toggle.png)
 
 ### 5. 🚚 Supply Chain View
 * **Objective:** Maximize fulfillment efficacy and evaluate operational risk profile.
@@ -58,4 +63,4 @@ The central navigation hub of the tool. Designed with an intuitive UX/UI that al
 ## 💡 How to Run This Project Locally
 1. Clone this repository to your machine.
 2. Download and install [Power BI Desktop](https://powerbi.microsoft.com/).
-3. Open the `.pbix` file *(Note: If you have saved your local development file, upload it to this repository so others can download it!)*.
+3. Open the `.pbix` file.
